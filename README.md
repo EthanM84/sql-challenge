@@ -56,4 +56,10 @@ List the frequency counts, in descending order, of all the employee last names (
 
 SELECT last_name, COUNT(*) AS frequency
 FROM employees
-GROUP BY
+GROUP BY last_name
+ORDER BY frequency DESC;
+This query retrieves the frequency counts, in descending order, of all the employee last names by grouping the records based on the last_name column and applying the COUNT(*) function.
+
+License
+This project is licensed under the MIT License.
+Feel free to customize the README file further based on your specific needs, such as adding a p
