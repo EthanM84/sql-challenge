@@ -63,6 +63,6 @@ ORDER BY frequency DESC;</code>
   <p>This query retrieves the frequency counts, in descending order, of all the employee last names by grouping the records based on the last_name column and applying the COUNT(*) function.</p>
   <h2>License</h2>
   <p>This project is licensed under the MIT License.</p>
-  <p>Feel free to customize the README file further based on your specific needs, such as adding a p</p>
+<!--   <p>Feel free to customize the README file further based on your specific needs, such as adding a p</p> -->
 </body>
 </html>
